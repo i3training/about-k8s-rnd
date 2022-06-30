@@ -31,6 +31,6 @@ Get kubeconfig  and then copy paste it ==> Add clusters
 ![Lens Add From kubeconfig-2](img/3.jpg)
 
 
-Trallala you can see the dashboard and manage the RKE cluster using lens
+Trallala you can see the dashboard and manage the k8s cluster using lens
 
 ![Lens Add From kubeconfig-2](img/2.jpg)
