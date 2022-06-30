@@ -125,7 +125,7 @@ For TCP port :
 ```
 for i in 192.168.0.119 192.168.0.120 192.168.0.121 192.168.0.122; do echo "$i = "; 
 ssh root@$i 'for j in 22 80 443 179 5473 6443 8472 2376 8472 2379-2380 6783 9099 10250 10251 10252 10254 30000-32767; do
-    sudo firewall-cmd --add-port=${j}/tcp --permanent; done';
+     firewall-cmd --add-port=${j}/tcp --permanent; done';
 echo "========================="; done;
 ```
 
@@ -133,7 +133,7 @@ For UDP port :
 ```
 for i in 192.168.0.119 192.168.0.120 192.168.0.121 192.168.0.122; do echo "$i = "; 
 ssh root@$i 'for j in 8285 8472 4789 6783 6784 30000-32767; do
-    sudo firewall-cmd --add-port=${j}/udp --permanent; done';
+     firewall-cmd --add-port=${j}/udp --permanent; done';
 echo "========================="; done;
 ```
 
