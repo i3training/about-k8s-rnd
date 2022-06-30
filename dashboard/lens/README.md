@@ -28,9 +28,9 @@ After Login go to Cluster, in the right bottom you can see Add button ==> Add Fr
 
 Get kubeconfig  and then copy paste it ==> Add clusters
 
-![Lens Add From kubeconfig-2](img/2.jpg)
+![Lens Add From kubeconfig-2](img/3.jpg)
 
 
 Trallala you can see the dashboard and manage the RKE cluster using lens
 
-![Lens Add From kubeconfig-2](img/3.jpg)
+![Lens Add From kubeconfig-2](img/2.jpg)
